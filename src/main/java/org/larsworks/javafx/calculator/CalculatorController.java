@@ -1,5 +1,6 @@
 package org.larsworks.javafx.calculator;
 
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -23,5 +24,12 @@ public class CalculatorController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         //To change body of implemented methods use File | Settings | File Templates.
+    }
+
+    @FXML void handleButtonAction(ActionEvent actionEvent) {
+        final Object SOURCE = actionEvent.getSource();
+        if(SOURCE.equals(btn01)) {
+            //ölkdölsakd
+        }
     }
 }
