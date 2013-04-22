@@ -29,7 +29,7 @@ public class CalculatorController implements Initializable {
     @FXML void handleButtonAction(ActionEvent actionEvent) {
         final Object SOURCE = actionEvent.getSource();
         if(SOURCE.equals(btn01)) {
-            //ölkdölsakd
+            System.out.println("click");
         }
     }
 }
