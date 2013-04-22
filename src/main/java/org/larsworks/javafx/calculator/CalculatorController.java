@@ -18,7 +18,7 @@ import java.util.ResourceBundle;
 public class CalculatorController implements Initializable {
 
     @FXML private Label lcd;
-    @FXML private Button btn001;
+    @FXML private Button btn01;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
