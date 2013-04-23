@@ -8,11 +8,8 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 /**
- * Created with IntelliJ IDEA.
- * User: lkleen
- * Date: 23.04.13
- * Time: 10:45
-  */
+ * Interceptor to 'encrypt' data
+ */
 public class EncryptionEntityInterceptor implements WriterInterceptor {
 
     @Override
